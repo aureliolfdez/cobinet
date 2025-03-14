@@ -1,0 +1,63 @@
+Array.Data.File,Ids,description,type,sampleName
+GSM440999.CEL.gz,GSM440999,Ewing sarcoma patient sample R194 (set B),Tumor,Tumor1
+GSM441000.CEL.gz,GSM441000,Ewing sarcoma patient sample R196 (set B),Tumor,Tumor2
+GSM441001.CEL.gz,GSM441001,Ewing sarcoma patient sample R29 (set B),Tumor,Tumor3
+GSM441002.CEL.gz,GSM441002,Ewing sarcoma patient sample R30 (set B),Tumor,Tumor4
+GSM441003.CEL.gz,GSM441003,Ewing sarcoma patient sample R33 (set B),Tumor,Tumor5
+GSM441004.CEL.gz,GSM441004,Ewing sarcoma patient sample R34 (set B),Tumor,Tumor6
+GSM441005.CEL.gz,GSM441005,Ewing sarcoma patient sample R35 (set B),Tumor,Tumor7
+GSM441006.CEL.gz,GSM441006,Ewing sarcoma patient sample R37 (set B),Tumor,Tumor8
+GSM441007.CEL.gz,GSM441007,Ewing sarcoma patient sample R38 (set B),Tumor,Tumor9
+GSM441008.CEL.gz,GSM441008,Ewing sarcoma patient sample R39 (set B),Tumor,Tumor10
+GSM441009.CEL.gz,GSM441009,Ewing sarcoma patient sample R40 (set B),Tumor,Tumor11
+GSM441010.CEL.gz,GSM441010,Ewing sarcoma patient sample R41 (set B),Tumor,Tumor12
+GSM441011.CEL.gz,GSM441011,Ewing sarcoma patient sample R42 (set B),Tumor,Tumor13
+GSM441012.CEL.gz,GSM441012,Ewing sarcoma patient sample R43 (set B),Tumor,Tumor14
+GSM441013.CEL.gz,GSM441013,Ewing sarcoma patient sample R44 (set B),Tumor,Tumor15
+GSM441014.CEL.gz,GSM441014,Ewing sarcoma patient sample R45 (set B),Tumor,Tumor16
+GSM441015.CEL.gz,GSM441015,Ewing sarcoma patient sample R46 (set B),Tumor,Tumor17
+GSM441016.CEL.gz,GSM441016,Ewing sarcoma patient sample R48 (set B),Tumor,Tumor18
+GSM441017.CEL.gz,GSM441017,Ewing sarcoma patient sample R49 (set B),Tumor,Tumor19
+GSM441018.CEL.gz,GSM441018,Ewing sarcoma patient sample R50 (set B),Tumor,Tumor20
+GSM441019.CEL.gz,GSM441019,Ewing sarcoma patient sample R51 (set B),Tumor,Tumor21
+GSM441020.CEL.gz,GSM441020,Ewing sarcoma patient sample R52 (set B),Tumor,Tumor22
+GSM441021.CEL.gz,GSM441021,Ewing sarcoma patient sample R53 (set B),Tumor,Tumor23
+GSM441022.CEL.gz,GSM441022,Ewing sarcoma patient sample R54 (set B),Tumor,Tumor24
+GSM441023.CEL.gz,GSM441023,Ewing sarcoma patient sample R55 (set B),Tumor,Tumor25
+GSM441024.CEL.gz,GSM441024,Ewing sarcoma patient sample R57 (set B),Tumor,Tumor26
+GSM441025.CEL.gz,GSM441025,Ewing sarcoma patient sample R58 (set B),Tumor,Tumor27
+GSM441026.CEL.gz,GSM441026,Ewing sarcoma patient sample R60 (set B),Tumor,Tumor28
+GSM441027.CEL.gz,GSM441027,Ewing sarcoma patient sample R61 (set B),Tumor,Tumor29
+GSM441028.CEL.gz,GSM441028,Ewing sarcoma patient sample R62 (set B),Tumor,Tumor30
+GSM441029.CEL.gz,GSM441029,Ewing sarcoma patient sample R63 (set B),Tumor,Tumor31
+GSM441030.CEL.gz,GSM441030,Ewing sarcoma patient sample R64 (set B),Tumor,Tumor32
+GSM441031.CEL.gz,GSM441031,Ewing sarcoma patient sample R65 (set B),Tumor,Tumor33
+GSM441032.CEL.gz,GSM441032,Ewing sarcoma patient sample R67 (set B),Tumor,Tumor34
+GSM441033.CEL.gz,GSM441033,Ewing sarcoma patient sample R69 (set B),Tumor,Tumor35
+GSM441034.CEL.gz,GSM441034,Ewing sarcoma patient sample R72 (set B),Tumor,Tumor36
+GSM441035.CEL.gz,GSM441035,Ewing sarcoma patient sample R74 (set B),Tumor,Tumor37
+GSM441036.CEL.gz,GSM441036,Ewing sarcoma patient sample R75 (set B),Tumor,Tumor38
+GSM441037.CEL.gz,GSM441037,Ewing sarcoma patient sample R78 (set B),Tumor,Tumor39
+GSM441038.CEL.gz,GSM441038,Ewing sarcoma patient sample R79 (set B),Tumor,Tumor40
+GSM441039.CEL.gz,GSM441039,Ewing sarcoma patient sample R80 (set B),Tumor,Tumor41
+GSM441040.CEL.gz,GSM441040,Ewing sarcoma patient sample R81 (set B),Tumor,Tumor42
+GSM441041.CEL.gz,GSM441041,Ewing sarcoma patient sample R83 (set B),Tumor,Tumor43
+GSM441042.CEL.gz,GSM441042,Ewing sarcoma patient sample R84 (set B),Tumor,Tumor44
+GSM441044.CEL.gz,GSM441044,Skeletal muscle 2 (set B),ControlSkeletal,ControlSkeletal1
+GSM441045.CEL.gz,GSM441045,Skeletal muscle 3 (set B),ControlSkeletal,ControlSkeletal2
+GSM441046.CEL.gz,GSM441046,Skeletal muscle 4 (set B),ControlSkeletal,ControlSkeletal3
+GSM441047.CEL.gz,GSM441047,Skeletal muscle 5 (set B),ControlSkeletal,ControlSkeletal4
+GSM441048.CEL.gz,GSM441048,Skeletal muscle 10 (set B),ControlSkeletal,ControlSkeletal5
+GSM441049.CEL.gz,GSM441049,Skeletal muscle (vastus lateralis) 3 (set B),ControlVastus,ControlVastus1
+GSM441050.CEL.gz,GSM441050,Skeletal muscle (vastus lateralis) 2 (set B),ControlVastus,ControlVastus2
+GSM441051.CEL.gz,GSM441051,Skeletal muscle (vastus lateralis) 6 (set B),ControlVastus,ControlVastus3
+GSM441052.CEL.gz,GSM441052,Skeletal muscle (vastus lateralis) 7 (set B),ControlVastus,ControlVastus4
+GSM441053.CEL.gz,GSM441053,Skeletal muscle (vastus lateralis) 8 (set B),ControlVastus,ControlVastus5
+GSM441054.CEL.gz,GSM441054,Skeletal muscle (vastus lateralis) 9 (set B),ControlVastus,ControlVastus6
+GSM441055.CEL.gz,GSM441055,Skeletal muscle (vastus lateralis) 10 (set B),ControlVastus,ControlVastus7
+GSM441056.CEL.gz,GSM441056,Skeletal muscle (vastus lateralis) 11 (set B),ControlVastus,ControlVastus8
+GSM441057.CEL.gz,GSM441057,Skeletal muscle (vastus lateralis) 12 (set B),ControlVastus,ControlVastus9
+GSM441058.CEL.gz,GSM441058,Skeletal muscle (vastus lateralis) 13 (set B),ControlVastus,ControlVastus10
+GSM441059.CEL.gz,GSM441059,Skeletal muscle (vastus lateralis) 15 (set B),ControlVastus,ControlVastus11
+GSM441060.CEL.gz,GSM441060,Skeletal muscle (vastus lateralis) 17 (set B),ControlVastus,ControlVastus12
+GSM441061.CEL.gz,GSM441061,Skeletal muscle (vastus lateralis) 18 (set B),ControlVastus,ControlVastus13

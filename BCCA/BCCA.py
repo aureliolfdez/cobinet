@@ -5,8 +5,6 @@ import numpy as np #pip install numpy
 import pandas as pd #pip install pandas
 import os
 
-
-
 def bcca(data, correlation_threshold=0.9, min_cols=3, debug=False):
 
     genes = data.iloc[:, 0].astype(str).to_numpy()
@@ -39,8 +37,6 @@ def bcca(data, correlation_threshold=0.9, min_cols=3, debug=False):
     saveResults(biclusters, genes, condiciones, data, debug)   
     
     return biclusters
-
-
 
 def find_cols(ri, rj, correlation_threshold, min_cols):
     
@@ -101,12 +97,9 @@ def exists(biclusters, bTemp):
 
     return False  # No existe, se puede agregar
 
-
-
-
 def saveResults(biclusters, genes, condiciones, data, debug=False):
 
-    output_dir = "resultsBcca/" 
+    output_dir = "results/bcca/" 
     output_file = os.path.join(output_dir, "results_biclusters.csv")
 
     biclusters_df = pd.DataFrame(biclusters)
@@ -116,7 +109,7 @@ def saveResults(biclusters, genes, condiciones, data, debug=False):
     biclusters_df = pd.read_csv(output_file, sep=';')
     grouped_biclusters = biclusters_df.groupby("condiciones")["genes"].apply(lambda x: ','.join(x)).reset_index()
 
-    with open("resultsBcca/infoNetworks.txt", "w") as f:
+    with open("results/bcca/infoNetworks.txt", "w") as f:
         for index, row in grouped_biclusters.iterrows():
             f.write(f"network_{index}.csv -> Columnas asociadas: {row['condiciones']}\n")
     print("Informacion de redes guardada en infoNetworks.txt")
@@ -134,13 +127,13 @@ def saveResults(biclusters, genes, condiciones, data, debug=False):
             correlations.append({"Interaction": g1, "name": g2, "Pearson": corr_value, "selected": "false", "shared interaction": g1, "shared name": g2, "Weight": corr_value})
         
         corr_df = pd.DataFrame(correlations)
-        filename = f"resultsBcca/network_{id}.csv"
+        filename = f"results/bcca/network_{id}.csv"
         corr_df.to_csv(filename, index=False, sep=',')
         print(f"Correlaciones guardadas en '{filename}'")
         id+=1
      
     
-    network_files = [f for f in os.listdir('./resultsBcca') if f.startswith('network') and f.endswith('.csv')]
+    network_files = [f for f in os.listdir('./results/bcca') if f.startswith('network') and f.endswith('.csv')]
     
     if debug:
         print(network_files)
@@ -150,7 +143,7 @@ def saveResults(biclusters, genes, condiciones, data, debug=False):
         if debug:
             print(network_file) 
                  
-        file_path = os.path.join('./resultsBcca', network_file) 
+        file_path = os.path.join('./results/bcca', network_file) 
         network_df = pd.read_csv(file_path)
         unique_genes = set(network_df['Interaction'].astype(str).tolist() + network_df['name'].astype(str).tolist())  
         genes_df = pd.DataFrame(unique_genes, columns=['Gene'])

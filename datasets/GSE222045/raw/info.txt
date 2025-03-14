@@ -1,0 +1,12 @@
+NCBI elimina aquellos samples que no cumplen con un ratio del 50% de alineamiento genómico o que hay un error a la hora de sacar los counts. 
+
+Aquellos samples que no cumplen estas condiciones son:
+- GSM6912618: Leiomyoma_14
+- GSM6912629: Leiomyosarcoma_17
+
+POR TANTO, las muestras quedan de la siguiente manera:
+- 16 muestras control.
+- 17 muestras tumorales (sarcoma).
+
+La dimension final del dataset es de: 39376 genes x 33 muestras.
+

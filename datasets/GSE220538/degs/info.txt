@@ -1,0 +1,13 @@
+Fold-Change: |1| && pValue = 0.01
+#########################################
+
+171 genes activados
+367 genes reprimidos
+538 DEGs
+
+Fold-Change: |2| && pValue = 0.01
+#########################################
+
+152 genes activados
+275 genes reprimidos
+427 DEGs

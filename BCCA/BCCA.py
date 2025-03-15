@@ -104,7 +104,7 @@ def saveResults(biclusters, genes, condiciones, data, dataset, correlation_thres
 
     biclusters_df = pd.DataFrame(biclusters)
     biclusters_df.to_csv(output_file, index=False, sep=";")
-    print("Resultados guardados en 'results_biclusters.csv'")
+    print("Resultados guardados en 'results_biclusters.csv'", flush=True)
 
     biclusters_df = pd.read_csv(output_file, sep=';')
     grouped_biclusters = biclusters_df.groupby("condiciones")["genes"].apply(lambda x: ','.join(x)).reset_index()
@@ -112,7 +112,7 @@ def saveResults(biclusters, genes, condiciones, data, dataset, correlation_thres
     with open(f"results/bcca/{dataset}_infoNetworks_cor-{correlation_threshold}_cols-{min_cols}.txt", "w") as f:
         for index, row in grouped_biclusters.iterrows():
             f.write(f"{dataset}_network_{index}_cor-{correlation_threshold}_cols-{min_cols}.csv -> Columnas asociadas: {row['condiciones']}\n")
-    print(f"Informacion de redes guardada en {dataset}_infoNetworks_cor-{correlation_threshold}_cols-{min_cols}.txt")
+    print(f"Informacion de redes guardada en {dataset}_infoNetworks_cor-{correlation_threshold}_cols-{min_cols}.txt", flush=True)
             
     data_df = pd.DataFrame(data, index=genes, columns=condiciones)
     id=0
@@ -129,19 +129,19 @@ def saveResults(biclusters, genes, condiciones, data, dataset, correlation_thres
         corr_df = pd.DataFrame(correlations)
         filename = f"results/bcca/{dataset}_network_{id}_cor-{correlation_threshold}_cols-{min_cols}.csv"
         corr_df.to_csv(filename, index=False, sep=',')
-        print(f"Correlaciones guardadas en '{filename}'")
+        print(f"Correlaciones guardadas en '{filename}'", flush=True)
         id+=1
      
     
     network_files = [f for f in os.listdir('./results/bcca') if f.startswith(f'{dataset}_network') and f.endswith('.csv')]
     
     if debug:
-        print(network_files)
+        print(network_files, flush=True)
 
     for network_file in network_files:
         
         if debug:
-            print(network_file) 
+            print(network_file, flush=True) 
                  
         file_path = os.path.join('./results/bcca', network_file) 
         network_df = pd.read_csv(file_path)
@@ -149,4 +149,4 @@ def saveResults(biclusters, genes, condiciones, data, dataset, correlation_thres
         genes_df = pd.DataFrame(unique_genes, columns=['Gene'])
         genes_file = file_path.replace('network', 'genes')
         genes_df.to_csv(genes_file, index=False, header=False)
-        print(f'Archivo {genes_file} generado con éxito.')
+        print(f'Archivo {genes_file} generado con éxito.', flush=True)

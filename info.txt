@@ -1,0 +1,2 @@
+Comando para ejecutar pruebas con BCCA:
+python3 -u BCCA/GSE17674_FC1.py > results_GSE17674_FC1.txt 2>&1 &

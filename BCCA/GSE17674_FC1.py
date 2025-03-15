@@ -21,14 +21,14 @@ datasets = {
 
 # Procesamiento de cada combinación
 for threshold in correlationThresholds:
-    print(f"Processing with correlation_threshold = {threshold}")
+    print(f"Processing with correlation_threshold = {threshold}", flush=True)
     
     for dataset_type, file_path in datasets.items():
         cols_total = normalColsDataset if dataset_type == "normal" else tumorColsDataset
         
         for percentage in percentageCols:
             cols = round(cols_total * percentage)
-            print(f"{dataset_type.capitalize()} - {int(percentage)}% cols: {cols}")
+            print(f"{dataset_type.capitalize()} - {int(percentage)}% cols: {cols}", flush=True)
             
             data = pd.read_csv(file_path, sep="\t")
             bcca(data, correlation_threshold=threshold, min_cols=cols, dataset="GSE17674")

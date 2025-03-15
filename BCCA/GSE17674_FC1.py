@@ -1,4 +1,4 @@
-from BCCA.BCCA import bcca
+from BCCA import bcca
 import pandas as pd
 import numpy as np
 
@@ -28,7 +28,7 @@ for threshold in correlationThresholds:
         
         for percentage in percentageCols:
             cols = round(cols_total * percentage)
-            print(f"{dataset_type.capitalize()} - {int(percentage*100)}% cols: {cols}")
+            print(f"{dataset_type.capitalize()} - {int(percentage)}% cols: {cols}")
             
-            # data = pd.read_csv(file_path)
-            # bcca(data, correlation_threshold=0.9, min_cols=cols)
+            data = pd.read_csv(file_path, sep="\t")
+            bcca(data, correlation_threshold=threshold, min_cols=cols, dataset="GSE17674")

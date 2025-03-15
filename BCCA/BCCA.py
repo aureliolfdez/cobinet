@@ -5,7 +5,7 @@ import numpy as np #pip install numpy
 import pandas as pd #pip install pandas
 import os
 
-def bcca(data, correlation_threshold=0.9, min_cols=3, debug=False):
+def bcca(data, correlation_threshold=0.9, min_cols=3, dataset="", debug=False):
 
     genes = data.iloc[:, 0].astype(str).to_numpy()
     condiciones = np.array(list(map(str, data.columns[1:])))
@@ -34,7 +34,7 @@ def bcca(data, correlation_threshold=0.9, min_cols=3, debug=False):
             if not exists(biclusters, bTemp):
                 biclusters.append({"genes": ",".join([str(genes[idx]) for idx in rows]), "condiciones": ",".join([str(condiciones[idx]) for idx in cols])})
             
-    saveResults(biclusters, genes, condiciones, data, debug)   
+    saveResults(biclusters, genes, condiciones, data, dataset, correlation_threshold, min_cols, debug)   
     
     return biclusters
 
@@ -97,10 +97,10 @@ def exists(biclusters, bTemp):
 
     return False  # No existe, se puede agregar
 
-def saveResults(biclusters, genes, condiciones, data, debug=False):
+def saveResults(biclusters, genes, condiciones, data, dataset, correlation_threshold, min_cols, debug=False):
 
     output_dir = "results/bcca/" 
-    output_file = os.path.join(output_dir, "results_biclusters.csv")
+    output_file = os.path.join(output_dir, f"{dataset}_biclusters_cor-{correlation_threshold}_cols-{min_cols}.csv")
 
     biclusters_df = pd.DataFrame(biclusters)
     biclusters_df.to_csv(output_file, index=False, sep=";")
@@ -109,10 +109,10 @@ def saveResults(biclusters, genes, condiciones, data, debug=False):
     biclusters_df = pd.read_csv(output_file, sep=';')
     grouped_biclusters = biclusters_df.groupby("condiciones")["genes"].apply(lambda x: ','.join(x)).reset_index()
 
-    with open("results/bcca/infoNetworks.txt", "w") as f:
+    with open(f"results/bcca/{dataset}_infoNetworks_cor-{correlation_threshold}_cols-{min_cols}.txt", "w") as f:
         for index, row in grouped_biclusters.iterrows():
-            f.write(f"network_{index}.csv -> Columnas asociadas: {row['condiciones']}\n")
-    print("Informacion de redes guardada en infoNetworks.txt")
+            f.write(f"{dataset}_network_{index}_cor-{correlation_threshold}_cols-{min_cols}.csv -> Columnas asociadas: {row['condiciones']}\n")
+    print(f"Informacion de redes guardada en {dataset}_infoNetworks_cor-{correlation_threshold}_cols-{min_cols}.txt")
             
     data_df = pd.DataFrame(data, index=genes, columns=condiciones)
     id=0
@@ -127,13 +127,13 @@ def saveResults(biclusters, genes, condiciones, data, debug=False):
             correlations.append({"Interaction": g1, "name": g2, "Pearson": corr_value, "selected": "false", "shared interaction": g1, "shared name": g2, "Weight": corr_value})
         
         corr_df = pd.DataFrame(correlations)
-        filename = f"results/bcca/network_{id}.csv"
+        filename = f"results/bcca/{dataset}_network_{id}_cor-{correlation_threshold}_cols-{min_cols}.csv"
         corr_df.to_csv(filename, index=False, sep=',')
         print(f"Correlaciones guardadas en '{filename}'")
         id+=1
      
     
-    network_files = [f for f in os.listdir('./results/bcca') if f.startswith('network') and f.endswith('.csv')]
+    network_files = [f for f in os.listdir('./results/bcca') if f.startswith(f'{dataset}_network') and f.endswith('.csv')]
     
     if debug:
         print(network_files)

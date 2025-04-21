@@ -19,6 +19,9 @@ datasets = {
     "tumor": "datasets/GSE17674/degs/FC_1/tumor_DEGs.csv"
 }
 
+minGenes = 10       # Numero de genes minimo por cada red.
+interactMin = 10    # Numero de interacciones mínimas por cada red.
+
 # Procesamiento de cada combinación
 for threshold in correlationThresholds:
     print(f"Processing with correlation_threshold = {threshold}", flush=True)
@@ -31,4 +34,4 @@ for threshold in correlationThresholds:
             print(f"{dataset_type.capitalize()} - {int(percentage)}% cols: {cols}", flush=True)
             
             data = pd.read_csv(file_path, sep="\t")
-            bcca(data, correlation_threshold=threshold, min_cols=cols, dataset="GSE17674")
+            bcca(data, correlation_threshold=threshold, min_cols=cols, dataset="GSE17674", geneMin=minGenes, interactionsMin=interactMin)

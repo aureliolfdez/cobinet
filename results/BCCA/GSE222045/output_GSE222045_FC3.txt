@@ -1,0 +1,215 @@
+Processing with correlation_threshold = 0.9
+Normal - 1% cols: 16
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.9_cols-16.txt
+Normal - 0% cols: 15
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.9_cols-15.txt
+Normal - 0% cols: 14
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.9_cols-14.txt
+Normal - 0% cols: 14
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.9_cols-14.txt
+Normal - 0% cols: 13
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.9_cols-13.txt
+Normal - 0% cols: 12
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.9_cols-12.txt
+Normal - 0% cols: 11
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.9_cols-11.txt
+Tumor - 1% cols: 17
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.9_cols-17.txt
+Tumor - 0% cols: 16
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.9_cols-16.txt
+Tumor - 0% cols: 15
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.9_cols-15.txt
+Tumor - 0% cols: 14
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.9_cols-14.txt
+Tumor - 0% cols: 14
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.9_cols-14.txt
+Tumor - 0% cols: 13
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.9_cols-13.txt
+Tumor - 0% cols: 12
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.9_cols-12.txt
+Processing with correlation_threshold = 0.85
+Normal - 1% cols: 16
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.85_cols-16.txt
+Normal - 0% cols: 15
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.85_cols-15.txt
+Normal - 0% cols: 14
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.85_cols-14.txt
+Normal - 0% cols: 14
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.85_cols-14.txt
+Normal - 0% cols: 13
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.85_cols-13.txt
+Normal - 0% cols: 12
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.85_cols-12.txt
+Normal - 0% cols: 11
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.85_cols-11.txt
+Tumor - 1% cols: 17
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.85_cols-17.txt
+Tumor - 0% cols: 16
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.85_cols-16.txt
+Tumor - 0% cols: 15
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.85_cols-15.txt
+Tumor - 0% cols: 14
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.85_cols-14.txt
+Tumor - 0% cols: 14
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.85_cols-14.txt
+Tumor - 0% cols: 13
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.85_cols-13.txt
+Tumor - 0% cols: 12
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.85_cols-12.txt
+Processing with correlation_threshold = 0.8
+Normal - 1% cols: 16
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.8_cols-16.txt
+Normal - 0% cols: 15
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.8_cols-15.txt
+Normal - 0% cols: 14
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.8_cols-14.txt
+Normal - 0% cols: 14
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.8_cols-14.txt
+Normal - 0% cols: 13
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.8_cols-13.txt
+Normal - 0% cols: 12
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.8_cols-12.txt
+Normal - 0% cols: 11
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.8_cols-11.txt
+Tumor - 1% cols: 17
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.8_cols-17.txt
+Tumor - 0% cols: 16
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.8_cols-16.txt
+Tumor - 0% cols: 15
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.8_cols-15.txt
+Tumor - 0% cols: 14
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.8_cols-14.txt
+Tumor - 0% cols: 14
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.8_cols-14.txt
+Tumor - 0% cols: 13
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.8_cols-13.txt
+Tumor - 0% cols: 12
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.8_cols-12.txt
+Processing with correlation_threshold = 0.75
+Normal - 1% cols: 16
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.75_cols-16.txt
+Normal - 0% cols: 15
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.75_cols-15.txt
+Normal - 0% cols: 14
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.75_cols-14.txt
+Normal - 0% cols: 14
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.75_cols-14.txt
+Normal - 0% cols: 13
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.75_cols-13.txt
+Normal - 0% cols: 12
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.75_cols-12.txt
+Normal - 0% cols: 11
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.75_cols-11.txt
+Tumor - 1% cols: 17
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.75_cols-17.txt
+Tumor - 0% cols: 16
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.75_cols-16.txt
+Tumor - 0% cols: 15
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.75_cols-15.txt
+Tumor - 0% cols: 14
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.75_cols-14.txt
+Tumor - 0% cols: 14
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.75_cols-14.txt
+Tumor - 0% cols: 13
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.75_cols-13.txt
+Tumor - 0% cols: 12
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.75_cols-12.txt
+Processing with correlation_threshold = 0.7
+Normal - 1% cols: 16
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.7_cols-16.txt
+Normal - 0% cols: 15
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.7_cols-15.txt
+Normal - 0% cols: 14
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.7_cols-14.txt
+Normal - 0% cols: 14
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.7_cols-14.txt
+Normal - 0% cols: 13
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.7_cols-13.txt
+Normal - 0% cols: 12
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.7_cols-12.txt
+Normal - 0% cols: 11
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_normal_infoNetworks_cor-0.7_cols-11.txt
+Tumor - 1% cols: 17
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.7_cols-17.txt
+Tumor - 0% cols: 16
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.7_cols-16.txt
+Tumor - 0% cols: 15
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.7_cols-15.txt
+Tumor - 0% cols: 14
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.7_cols-14.txt
+Tumor - 0% cols: 14
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.7_cols-14.txt
+Tumor - 0% cols: 13
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.7_cols-13.txt
+Tumor - 0% cols: 12
+Resultados guardados en 'results_biclusters.csv'
+Informacion de redes guardada en GSE222045_FC3_tumor_infoNetworks_cor-0.7_cols-12.txt

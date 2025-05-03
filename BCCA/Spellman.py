@@ -16,7 +16,7 @@ correlationThresholds = [0.7]
 
 # Diccionario con los datasets
 datasets = {
-    "normal": "datasets/Spellman.csv"
+    "normal": "../datasets/Spellman.csv"
 }
 
 minGenes = 2        # Numero de genes minimo por cada red.

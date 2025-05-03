@@ -81,8 +81,13 @@ def corre(v, w):
     
     x = np.sum(vc * wc)
     y = np.sum(vc * vc) * np.sum(wc * wc)
+
+    if y > 0:
+        result = np.abs(x / np.sqrt(y))
+    else:
+        result = 0
     
-    return np.abs(x / np.sqrt(y))
+    return result
 
 def exists(biclusters, bTemp):
     genes_sorted = ",".join(sorted(set(bTemp["genes"].split(","))))
@@ -133,7 +138,7 @@ def saveResults(biclusters, genes, condiciones, data, dataset, correlation_thres
                     if len(unique_genes) >= geneMin:
                         filename = f"results/bcca/{dataset}_network_{id}_cor-{correlation_threshold}_cols-{min_cols}.csv"
                         corr_df.to_csv(filename, index=False, sep=',')
-                        print(f"Correlaciones guardadas en '{filename}'", flush=True)
+                        #print(f"Correlaciones guardadas en '{filename}'", flush=True)
                         f.write(f"{dataset}_network_{id}_cor-{correlation_threshold}_cols-{min_cols}.csv -> Columnas asociadas: {row['condiciones']}\n")
                         id+=1
             print(f"Informacion de redes guardada en {dataset}_infoNetworks_cor-{correlation_threshold}_cols-{min_cols}.txt", flush=True)
@@ -155,4 +160,4 @@ def saveResults(biclusters, genes, condiciones, data, dataset, correlation_thres
             genes_df = pd.DataFrame(unique_genes, columns=['Gene'])
             genes_file = file_path.replace('network', 'genes')
             genes_df.to_csv(genes_file, index=False, header=False)
-            print(f'Archivo {genes_file} generado con éxito.', flush=True)
+            #print(f'Archivo {genes_file} generado con éxito.', flush=True)
